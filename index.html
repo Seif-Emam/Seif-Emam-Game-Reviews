@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Over</title>
+
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/index.css">
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+  <section class="home  ">
+    <header >
+      <img src="./images/wraper.png" class="w-100" alt="game photo">
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg container position-sticky top-0 z-3 ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="images/logo-sm.png " class="w-25 " alt="">Game Reviews</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a role="button" class="nav-link active" aria-current="page" data-category="mmorpg">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a role="button" class="nav-link" data-category="shooter">SHOOTER</a>
+            </li>
+            <li class="nav-item">
+              <a role="button" class="nav-link" data-category="sailing ">
+                SAILING</a>
+            </li>
+            <li class="nav-item">
+              <a role="button" class="nav-link" data-category="permadeath">
+                PERMADEATH </a>
+            </li>
+
+            <li class="nav-item">
+              <a role="button" class="nav-link" data-category="superhero">
+                SUPERHERO </a>
+            </li>
+
+            <li class="nav-item">
+              <a role="button" class="nav-link" data-category="pixel">
+                PIXEL </a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class=" container">
+      <div id="gamebox" class=" row row-cols-lg-3 row-cols-xl-4  row-cols-1 row-cols-md-2 g-3">
+
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="Detials d-none">
+    <div class="container">
+      <div class=" head-content d-flex justify-content-between ">
+
+        <h1 class="text-white">Details Game </h1>
+        <button type="button" id="BTN" class="btn-close btn-close-white " aria-label="Close"></button>
+
+      </div>
+
+      <div class="details row " id="details-content">
+
+ 
+      </div>
+
+    </div>
+  </section>
+  <div class="loading d-none opacity-75   ">
+    <div class="spinner-border  " style="width: 3rem; height: 3rem; color: orangered;" role="status">
+
+
+    </div>
+  </div>
+
+
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./JS/index.js" type="module"></script>
+
+
+</body>
+
+</html>
